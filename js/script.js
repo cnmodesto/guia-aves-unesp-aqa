@@ -81,10 +81,16 @@ function abrirModal(ave) {
   const modal = document.createElement("div");
   modal.className = "modal";
 
+  let srcImagem = `../assets/images/not_available.jpg`;
+
+  if (ave.foto) {
+    srcImagem = `../assets/images/photos/${ave.particula}.jpg`;
+  }
+
   modal.innerHTML = `
     <div class="modal-card">
       <span class="close">&times;</span>
-      <img src="assets/images/photos/${ave.particula}.jpg" alt="${ave.nomeComumBrasileiro}">
+      <img src="${srcImagem}" alt="${ave.nomeComumBrasileiro}">
       <div class="modal-body">
         <h1>${ave.nomeComumBrasileiro}</h1>
         <h2>${ave.nomeCientifico} (${ave.descricao})</h2>
