@@ -19,11 +19,16 @@ async function carregarAves() {
         <div>
           <h3 class="headline">${ave.nomeComumBrasileiro}</h3>
           <h4 class="subhead"><em>${ave.nomeCientifico} (${ave.descricao})</em></h4>
-
         </div>
-        <a class="primary-btn" href="https://www.wikiaves.com/${ave.particula}" target="blank">Mais detalhes</a>
       </div>
     `;
+
+    const btn = document.createElement("button");
+    btn.className = "primary-btn";
+    btn.textContent = "Mais detalhes";
+    btn.addEventListener("click", () => abrirModal(ave));
+    card.querySelector(".card-content").appendChild(btn);
+
     grid.appendChild(card);
   });
 }
@@ -70,12 +75,53 @@ function aplicarFiltro(termo) {
   });
 }
 
+function abrirModal(ave) {
+  document.body.style.overflow = "hidden";
+
+  const modal = document.createElement("div");
+  modal.className = "modal";
+
+  modal.innerHTML = `
+    <div class="modal-card">
+      <span class="close">&times;</span>
+      <img src="assets/images/photos/${ave.particula}.jpg" alt="${ave.nomeComumBrasileiro}">
+      <div class="modal-body">
+        <h1>${ave.nomeComumBrasileiro}</h1>
+        <h2>${ave.nomeCientifico} (${ave.descricao})</h2>
+        <p><b><span class="modal-body-titles">Ordem:</span></b> ${ave.ordem}</p>
+        <p><b><span class="modal-body-titles">Família:</span></b> ${ave.familia}</p>
+        <p><b><span class="modal-body-titles">Nome Inglês:</span></b> ${ave.nomeComumIngles}</p>
+        <p><b><span class="modal-body-titles">Estado de Conservação IUCN:</span></b> ${ave.estadoConservacaoIucn}</p>
+        <p><b><span class="modal-body-titles">Nome Inglês:</span></b> ${ave.periodoAtividade}</p>
+        <p><b><span class="modal-body-titles">Dimorfismo Sexual:</span></b> ${ave.dimorfismo}</p>
+        <p><b><span class="modal-body-titles">Habitats:</span></b> ${ave.habitats}</p>
+        <p><b><span class="modal-body-titles">Dieta:</span></b> ${ave.dieta}</p>
+        <p><b><span class="modal-body-titles">Endêmica do Brasil:</span></b> ${ave.endemicaBrasil}</p>
+        <a class="primary-btn modal-body-btn" href="https://www.wikiaves.com.br/${ave.particula}" target=blank>Perfil da Espécie no Wikiaves</a>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(modal);
+
+  // Função de fechar modal
+  function fecharModal() {
+    modal.remove();
+    document.body.style.overflow = ""; // restaura scroll do body
+  }
+
+  // Fechar ao clicar no X
+  modal.querySelector(".close").addEventListener("click", fecharModal);
+  // Fechar clicando fora do card
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) fecharModal();
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   carregarAves().then(() => ativarBusca());
 
-  // =============================
   // Botão "Voltar ao topo"
-  // =============================
   const scrollBtn = document.getElementById("scrollTopBtn");
 
   // Mostra ou esconde o botão ao rolar
@@ -93,6 +139,36 @@ document.addEventListener("DOMContentLoaded", () => {
       top: 0,
       behavior: "smooth"
     });
+  });
+});
+
+const searchInput = document.getElementById("search");
+const clearBtn = document.getElementById("clearSearch");
+
+// Dar foco quando a página carrega
+searchInput.focus();
+
+const headerTitles = document.querySelectorAll("header h1, header h2");
+headerTitles.forEach(title => {
+  title.addEventListener("click", () => {
+    // Limpa a busca
+    searchInput.value = "";
+    aplicarFiltro("");
+    clearBtn.style.display = "none";
+
+    // Rolagem suave até o topo
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+
+    // Feedback visual temporário
+    setTimeout(() => {
+      title.style.color = ""; // volta para a cor original
+    }, 300);
+
+    // Dar foco no input
+    searchInput.focus();
   });
 });
 
