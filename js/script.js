@@ -18,13 +18,8 @@ async function carregarAves() {
       <div class="card-content">
         <div>
           <h3 class="headline">${ave.nomeComumBrasileiro}</h3>
-          <h4 class="subhead"><em>${ave.nomeCientifico}</em></h4>
-          <div class="body">
-            <p class="insidebody"><b>Descrição:</b> ${ave.descricao}</p>
-            <p class="insidebody"><b>Ordem:</b> ${ave.ordem}</p>
-            <p class="insidebody"><b>Família:</b> ${ave.familia}</p>
-            <p class="insidebody"><b>Nome Comum em Inglês:</b> ${ave.nomeComumIngles}</p>
-          </div>
+          <h4 class="subhead"><em>${ave.nomeCientifico} (${ave.descricao})</em></h4>
+
         </div>
         <a class="primary-btn" href="https://www.wikiaves.com/${ave.particula}" target="blank">Mais detalhes</a>
       </div>
