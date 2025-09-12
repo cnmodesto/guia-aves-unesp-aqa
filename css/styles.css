@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffe4b5;
+    background-image: url('../assets/images/background/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    font-family: "Staatliches", sans-serif;
+    background: #0E5374;
+    color: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+header h2 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+main {
+    flex: 1;
+}
+
+.search-box {
+    margin: 1.2rem auto;
+    max-width: 600px;
+    padding: 0.5rem;
+    text-align: center;
+    position: relative;
+}
+
+.search-box .search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #999;
+    pointer-events: none;
+}
+
+.search-box input {
+    width: 90%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 0.8rem;
+    padding-left: 50px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-right: 35px;
+    /* espaço pro X */
+}
+
+#clearSearch {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #999;
+    display: none;
+    /* começa escondido */
+}
+
+#clearSearch:hover {
+    color: #333;
+}
+
+#searchForm button[type="submit"] {
+    display: none;
+    /* oculta o botão pesquisar */
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+/* ==== CARD ==== */
+.card {
+    background: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.20);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+    width: 350px;
+    height: 511px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+
+.card-content {
+    flex: 1;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Tipografia */
+.headline {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+.subhead {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    color: #555;
+}
+
+.body {
+    margin: 1.5rem 0;
+    flex: 1;
+    /* ocupa espaço, empurrando o botão para baixo */
+}
+
+.insidebody {
+    margin: 0.6rem auto;
+    font-size: 14px;
+    color: #444;
+}
+
+/* Botão */
+.primary-btn {
+    padding: 0.6rem 0.6rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to right, #009FE0, #02A4E3);
+    color: #F5F7F8;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+.primary-btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    font-family: "Staatliches", sans-serif;
+    background: #2C2C2B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* -------------------------
+   Media Queries
+------------------------- */
+/* Tablets */
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header h2 {
+        font-size: 2.5rem;
+    }
+
+    .headline {
+        font-size: 14px;
+    }
+
+    .subhead {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header h2 {
+        font-size: 2rem;
+    }
+
+    .headline {
+        font-size: 14px;
+    }
+
+    .subhead {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}

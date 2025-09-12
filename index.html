@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+  <title>Aves da Unesp - Câmpus Araraquara</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Aves da Unesp</h1>
+    <h2>Câmpus Araraquara</h2>
+  </header>
+
+  <main>
+
+    <div class="search-box">
+      <form id="searchForm">
+        <div class="search-wrapper">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search" placeholder="Busque a ave desejada...">
+          <button type="button" id="clearSearch" aria-label="Limpar busca">&times;</button>
+        </div>
+        <button type="submit">Pesquisar</button>
+      </form>
+    </div>
+
+    <div class="grid" id="birdGrid">
+      <!-- Os cards serão inseridos via JS -->
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Aves da Unesp - Câmpus Araraquara</p>
+    <p>Desenvolvido por Celso Modesto Jr.</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
