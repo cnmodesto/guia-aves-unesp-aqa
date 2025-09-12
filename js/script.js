@@ -14,7 +14,7 @@ async function carregarAves() {
     }
 
     card.innerHTML = `
-      <img src="${srcImagem}" alt="${ave.nomeComumBrasileiro}">
+      <img src="${srcImagem}" alt="${ave.nomeComumBrasileiro}" loading="lazy">
       <div class="card-content">
         <div>
           <h3 class="headline">${ave.nomeComumBrasileiro}</h3>
@@ -63,10 +63,37 @@ function aplicarFiltro(termo) {
     const texto = card.innerText.toLowerCase();
     card.style.display = texto.includes(termo) ? "flex" : "none";
   });
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth" // rolagem suave
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   carregarAves().then(() => ativarBusca());
+
+  // =============================
+  // Botão "Voltar ao topo"
+  // =============================
+  const scrollBtn = document.getElementById("scrollTopBtn");
+
+  // Mostra ou esconde o botão ao rolar
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) { // aparece depois de rolar 300px
+      scrollBtn.style.display = "block";
+    } else {
+      scrollBtn.style.display = "none";
+    }
+  });
+
+  // Ao clicar, rola suavemente para o topo
+  scrollBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
 });
 
 // desabilita clique direito
