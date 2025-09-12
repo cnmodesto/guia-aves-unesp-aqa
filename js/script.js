@@ -81,10 +81,10 @@ function abrirModal(ave) {
   const modal = document.createElement("div");
   modal.className = "modal";
 
-  let srcImagem = `../assets/images/not_available.jpg`;
+  let srcImagem = `assets/images/not_available.jpg`;
 
   if (ave.foto) {
-    srcImagem = `../assets/images/photos/${ave.particula}.jpg`;
+    srcImagem = `assets/images/photos/${ave.particula}.jpg`;
   }
 
   modal.innerHTML = `
