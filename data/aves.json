@@ -150,7 +150,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana",
    "dieta": "Artrópodes",
    "particula": "urutau",
-   "foto": false
+   "foto": true
  },
  {
    "id": 10,
@@ -252,7 +252,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Áreas urbanas",
    "dieta": "Néctar, Artrópodes",
    "particula": "beija-flor-tesoura",
-   "foto": false
+   "foto": true
  },
  {
    "id": 16,
@@ -507,7 +507,7 @@
    "habitats": "Campos e pastagens, Ambientes antrópicos (plantios, jardins, construções), Cerrado e vegetação de savana",
    "dieta": "Pequenos mamíferos, Pequenos vertebrados",
    "particula": "gaviao-de-rabo-branco",
-   "foto": false
+   "foto": true
  },
  {
    "id": 31,
@@ -541,7 +541,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Áreas urbanas",
    "dieta": "Artrópodes, Pequenos vertebrados",
    "particula": "corujinha-do-mato",
-   "foto": false
+   "foto": true
  },
  {
    "id": 33,
@@ -1034,7 +1034,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana",
    "dieta": "Artrópodes, Pequenos vertebrados",
    "particula": "irre",
-   "foto": false
+   "foto": true
  },
  {
    "id": 62,
@@ -1051,7 +1051,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana",
    "dieta": "Artrópodes, Pequenos vertebrados",
    "particula": "maria-cavaleira",
-   "foto": false
+   "foto": true
  },
  {
    "id": 63,
@@ -1085,7 +1085,7 @@
    "habitats": "Áreas urbanas, Áreas rurais, Campos e pastagens, Florestas e matas (úmidas, secas, ciliares etc.)",
    "dieta": "Artrópodes, Frutos, Pequenos vertebrados",
    "particula": "bem-te-vi",
-   "foto": false
+   "foto": true
  },
  {
    "id": 65,
@@ -1119,7 +1119,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana",
    "dieta": "Artrópodes, Frutos",
    "particula": "bem-te-vi-rajado",
-   "foto": false
+   "foto": true
  },
  {
    "id": 67,
@@ -1255,7 +1255,7 @@
    "habitats": "Áreas urbanas, Áreas rurais, Campos e pastagens, Florestas e matas (úmidas, secas, ciliares etc.)",
    "dieta": "Artrópodes",
    "particula": "lavadeira-mascarada",
-   "foto": false
+   "foto": true
  },
  {
    "id": 75,
