@@ -98,7 +98,7 @@ function abrirModal(ave) {
         <p><b><span class="modal-body-titles">Família:</span></b> ${ave.familia}</p>
         <p><b><span class="modal-body-titles">Nome Inglês:</span></b> ${ave.nomeComumIngles}</p>
         <p><b><span class="modal-body-titles">Estado de Conservação IUCN:</span></b> ${ave.estadoConservacaoIucn}</p>
-        <p><b><span class="modal-body-titles">Nome Inglês:</span></b> ${ave.periodoAtividade}</p>
+        <p><b><span class="modal-body-titles">Período de Atividade:</span></b> ${ave.periodoAtividade}</p>
         <p><b><span class="modal-body-titles">Dimorfismo Sexual:</span></b> ${ave.dimorfismo}</p>
         <p><b><span class="modal-body-titles">Habitats:</span></b> ${ave.habitats}</p>
         <p><b><span class="modal-body-titles">Dieta:</span></b> ${ave.dieta}</p>
