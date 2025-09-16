@@ -114,14 +114,22 @@ function abrirModal(ave) {
   function fecharModal() {
     modal.remove();
     document.body.style.overflow = ""; // restaura scroll do body
+    document.removeEventListener("keydown", escFechar); // remove listener do ESC
   }
 
   // Fechar ao clicar no X
   modal.querySelector(".close").addEventListener("click", fecharModal);
+
   // Fechar clicando fora do card
   modal.addEventListener("click", (e) => {
     if (e.target === modal) fecharModal();
   });
+
+  // Fechar com tecla ESC
+  function escFechar(e) {
+    if (e.key === "Escape") fecharModal();
+  }
+  document.addEventListener("keydown", escFechar);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -181,4 +189,14 @@ headerTitles.forEach(title => {
 // desabilita clique direito
 document.addEventListener("contextmenu", (e) => {
   e.preventDefault();
+});
+
+document.addEventListener("scroll", () => {
+  const header = document.querySelector("header");
+
+  if (window.scrollY > 50) {
+    header.classList.add("shrink");
+  } else {
+    header.classList.remove("shrink");
+  }
 });

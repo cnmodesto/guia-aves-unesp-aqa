@@ -218,7 +218,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Ambientes antrópicos (plantios, jardins, construções)",
    "dieta": "Néctar, Artrópodes",
    "particula": "bico-reto-de-banda-branca",
-   "foto": false
+   "foto": true
  },
  {
    "id": 14,
@@ -490,7 +490,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Áreas urbanas",
    "dieta": "Artrópodes, Pequenos vertebrados",
    "particula": "gaviao-carijo",
-   "foto": false
+   "foto": true
  },
  {
    "id": 30,
@@ -643,7 +643,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Áreas urbanas",
    "dieta": "Artrópodes",
    "particula": "pica-pau-pequeno",
-   "foto": false
+   "foto": true
  },
  {
    "id": 39,
@@ -711,7 +711,7 @@
    "habitats": "Campos e pastagens, Ambientes antrópicos (plantios, jardins, construções), Áreas urbanas",
    "dieta": "Carcaças de animais mortos, Artrópodes, Pequenos vertebrados",
    "particula": "carcara",
-   "foto": false
+   "foto": true
  },
  {
    "id": 43,
@@ -830,7 +830,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana",
    "dieta": "Artrópodes",
    "particula": "chorozinho-de-bico-comprido",
-   "foto": false
+   "foto": true
  },
  {
    "id": 50,
@@ -898,7 +898,7 @@
    "habitats": "Campos e pastagens, Ambientes antrópicos (plantios, jardins, construções), Áreas urbanas",
    "dieta": "Artrópodes",
    "particula": "joao-de-barro",
-   "foto": false
+   "foto": true
  },
  {
    "id": 54,
@@ -1153,7 +1153,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana",
    "dieta": "Artrópodes, Frutos",
    "particula": "bentevizinho-de-penacho-vermelho",
-   "foto": false
+   "foto": true
  },
  {
    "id": 69,
@@ -1391,7 +1391,7 @@
    "habitats": "Campos e pastagens, Áreas abertas, Ambientes antrópicos (plantios, jardins, construções), Ambientes aquáticos e úmidos",
    "dieta": "Artrópodes",
    "particula": "andorinha-do-campo",
-   "foto": false
+   "foto": true
  },
  {
    "id": 83,
@@ -1408,7 +1408,7 @@
    "habitats": "Áreas abertas, Áreas urbanas, Campos e pastagens, Ambientes antrópicos (plantios, jardins, construções)",
    "dieta": "Artrópodes",
    "particula": "andorinha-grande",
-   "foto": false
+   "foto": true
  },
  {
    "id": 84,
@@ -1476,7 +1476,7 @@
    "habitats": "Áreas urbanas, Florestas e matas (úmidas, secas, ciliares etc.), Ambientes antrópicos (plantios, jardins, construções), Cerrado e vegetação de savana",
    "dieta": "Frutos, Artrópodes",
    "particula": "sabia-barranco",
-   "foto": false
+   "foto": true
  },
  {
    "id": 88,
@@ -1731,7 +1731,7 @@
    "habitats": "Áreas urbanas, Florestas e matas (úmidas, secas, ciliares etc.), Ambientes antrópicos (plantios, jardins, construções), Bordas de mata",
    "dieta": "Néctar, Frutos, Artrópodes",
    "particula": "cambacica",
-   "foto": false
+   "foto": true
  },
  {
    "id": 103,
@@ -1867,7 +1867,7 @@
    "habitats": "Campos e pastagens, Áreas abertas, Áreas urbanas, Ambientes antrópicos (plantios, jardins, construções)",
    "dieta": "Sementes",
    "particula": "canario-da-terra",
-   "foto": false
+   "foto": true
  },
  {
    "id": 111,

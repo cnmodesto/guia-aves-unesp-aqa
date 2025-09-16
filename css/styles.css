@@ -30,6 +30,23 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+/* Header reduzido */
+header.shrink h1 {
+    font-size: 2rem; /* menor */
+    margin-top: 0.2rem;
+}
+
+header.shrink h2 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+header.shrink .search-box {
+    margin: 0.3rem auto;
+    padding: 0.2rem;
 }
 
 header h1 {
@@ -59,7 +76,7 @@ header h2:active {
 }
 
 .search-box {
-    margin: 0.7rem auto;
+    margin: 0.3rem auto;
     max-width: 600px;
     padding: 0.5rem;
     text-align: center;
@@ -128,15 +145,16 @@ header h2:active {
 
 main {
     flex: 1;
-    margin-top: 260px;
-    -webkit-user-select: none;
-    /* Safari/Chrome */
-    -moz-user-select: none;
-    /* Firefox */
-    -ms-user-select: none;
-    /* IE/Edge */
-    user-select: none;
-    /* Padrão */
+    margin-top: 220px; /* base para header reduzido */
+    transition: margin-top 0.3s ease;
+    -webkit-user-select: none; /* Safari/Chrome */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none;/* Padrão */
+}
+
+header.shrink ~ main {
+    margin-top: 140px; /* ajusta espaço quando header encolhe */
 }
 
 .grid {
@@ -405,6 +423,11 @@ footer p {
         /* evita seleção acidental */
     }
 
+    header.shrink .search-box {
+        margin: 0.3rem auto;
+        padding: 0.5rem;
+    }
+
     header h1 {
         font-size: 3rem;
     }
@@ -414,7 +437,7 @@ footer p {
     }
 
     main {
-        margin-top: 230px;
+        margin-top: 200px;
     }
 
     .headline {
@@ -437,6 +460,11 @@ footer p {
         /* evita seleção acidental */
     }
 
+    header.shrink .search-box {
+        margin: 0.3rem auto;
+        padding: 0.5rem;
+    }
+
     header h1 {
         font-size: 2.8rem;
     }
@@ -446,7 +474,7 @@ footer p {
     }
 
     main {
-        margin-top: 210px;
+        margin-top: 180px;
     }
 
     .headline {
