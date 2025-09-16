@@ -286,7 +286,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Áreas urbanas",
    "dieta": "Néctar, Artrópodes",
    "particula": "beija-flor-de-garganta-verde",
-   "foto": false
+   "foto": true
  },
  {
    "id": 18,
@@ -337,7 +337,7 @@
    "habitats": "Ambientes aquáticos e úmidos, Campos e pastagens",
    "dieta": "Peixes, Artrópodes, Pequenos vertebrados",
    "particula": "garca-vaqueira",
-   "foto": false
+   "foto": true
  },
  {
    "id": 21,
@@ -473,7 +473,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Áreas urbanas",
    "dieta": "Artrópodes, Pequenos vertebrados",
    "particula": "gaviao-pernilongo",
-   "foto": false
+   "foto": true
  },
  {
    "id": 29,
@@ -524,7 +524,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Áreas urbanas",
    "dieta": "Pequenos mamíferos, Pequenos vertebrados",
    "particula": "gaviao-de-cauda-curta",
-   "foto": false
+   "foto": true
  },
  {
    "id": 32,
@@ -694,7 +694,7 @@
    "habitats": "Campos e pastagens, Ambientes antrópicos (plantios, jardins, construções), Cerrado e vegetação de savana",
    "dieta": "Artrópodes, Pequenos vertebrados",
    "particula": "seriema",
-   "foto": false
+   "foto": true
  },
  {
    "id": 42,
@@ -728,7 +728,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Áreas urbanas",
    "dieta": "Frutos, Sementes",
    "particula": "periquito-de-encontro-amarelo",
-   "foto": false
+   "foto": true
  },
  {
    "id": 44,
@@ -745,7 +745,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Áreas urbanas",
    "dieta": "Frutos, Sementes",
    "particula": "papagaio-verdadeiro",
-   "foto": false
+   "foto": true
  },
  {
    "id": 45,
@@ -762,7 +762,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Áreas urbanas",
    "dieta": "Frutos, Sementes",
    "particula": "curica",
-   "foto": false
+   "foto": true
  },
  {
    "id": 46,
@@ -779,7 +779,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Áreas urbanas",
    "dieta": "Frutos, Sementes",
    "particula": "tuim",
-   "foto": false
+   "foto": true
  },
  {
    "id": 47,
@@ -847,7 +847,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana",
    "dieta": "Artrópodes",
    "particula": "chorozinho-de-chapeu-preto",
-   "foto": false
+   "foto": true
  },
  {
    "id": 51,
@@ -864,7 +864,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana",
    "dieta": "Artrópodes",
    "particula": "choca-barrada",
-   "foto": false
+   "foto": true
  },
  {
    "id": 52,
@@ -983,7 +983,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana",
    "dieta": "Artrópodes, Frutos",
    "particula": "guaracava-de-barriga-amarela",
-   "foto": false
+   "foto": true
  },
  {
    "id": 59,
@@ -1017,7 +1017,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana",
    "dieta": "Artrópodes",
    "particula": "alegrinho",
-   "foto": false
+   "foto": true
  },
  {
    "id": 61,
@@ -1102,7 +1102,7 @@
    "habitats": "Campos e pastagens, Ambientes antrópicos (plantios, jardins, construções), Áreas urbanas",
    "dieta": "Artrópodes, Pequenos vertebrados",
    "particula": "suiriri-cavaleiro",
-   "foto": false
+   "foto": true
  },
  {
    "id": 66,
@@ -1136,7 +1136,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana",
    "dieta": "Artrópodes, Frutos",
    "particula": "neinei",
-   "foto": false
+   "foto": true
  },
  {
    "id": 68,
@@ -1187,7 +1187,7 @@
    "habitats": "Campos e pastagens, Ambientes antrópicos (plantios, jardins, construções), Cerrado e vegetação de savana",
    "dieta": "Artrópodes",
    "particula": "suiriri",
-   "foto": false
+   "foto": true
  },
  {
    "id": 71,
@@ -1289,7 +1289,7 @@
    "habitats": "Campos e pastagens, Cerrado e vegetação de savana, Áreas abertas",
    "dieta": "Artrópodes",
    "particula": "primavera",
-   "foto": false
+   "foto": true
  },
  {
    "id": 77,
@@ -1323,7 +1323,7 @@
    "habitats": "Cerrado e vegetação de savana, Florestas e matas (úmidas, secas, ciliares etc.), Áreas urbanas",
    "dieta": "Artrópodes, Frutos, Pequenos vertebrados",
    "particula": "gralha-do-campo",
-   "foto": false
+   "foto": true
  },
  {
    "id": 79,
@@ -1374,7 +1374,7 @@
    "habitats": "Ambientes aquáticos e úmidos, Áreas abertas, Campos e pastagens",
    "dieta": "Artrópodes",
    "particula": "andorinha-serradora",
-   "foto": false
+   "foto": true
  },
  {
    "id": 82,
@@ -1425,7 +1425,7 @@
    "habitats": "Áreas abertas, Bordas de mata, Campos e pastagens",
    "dieta": "Artrópodes",
    "particula": "andorinha-de-sobre-branco",
-   "foto": false
+   "foto": true
  },
  {
    "id": 85,
@@ -1510,7 +1510,7 @@
    "habitats": "Capoeiras e matas secundárias, Bordas de mata, Florestas e matas (úmidas, secas, ciliares etc.)",
    "dieta": "Frutos, Artrópodes",
    "particula": "sabia-ferreiro",
-   "foto": false
+   "foto": true
  },
  {
    "id": 90,
@@ -1527,7 +1527,7 @@
    "habitats": "Campos e pastagens, Cerrado e vegetação de savana, Áreas urbanas, Áreas abertas",
    "dieta": "Artrópodes, Frutos",
    "particula": "sabia-do-campo",
-   "foto": false
+   "foto": true
  },
  {
    "id": 91,
@@ -1595,7 +1595,7 @@
    "habitats": "Campos e pastagens, Cerrado e vegetação de savana, Áreas abertas",
    "dieta": "Sementes, Artrópodes",
    "particula": "tico-tico-do-campo",
-   "foto": false
+   "foto": true
  },
  {
    "id": 95,
@@ -1612,7 +1612,7 @@
    "habitats": "Campos e pastagens, Áreas abertas, Áreas urbanas, Ambientes antrópicos (plantios, jardins, construções), Bordas de mata",
    "dieta": "Sementes, Artrópodes",
    "particula": "tico-tico",
-   "foto": false
+   "foto": true
  },
  {
    "id": 96,
@@ -1629,7 +1629,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Ambientes aquáticos e úmidos, Bordas de mata, Ambientes antrópicos (plantios, jardins, construções)",
    "dieta": "Artrópodes, Frutos, Néctar",
    "particula": "encontro",
-   "foto": false
+   "foto": true
  },
  {
    "id": 97,
@@ -1680,7 +1680,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Cerrado e vegetação de savana, Bordas de mata, Áreas abertas",
    "dieta": "Artrópodes, Frutos",
    "particula": "saira-de-chapeu-preto",
-   "foto": false
+   "foto": true
  },
  {
    "id": 100,
@@ -1697,7 +1697,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Bordas de mata, Áreas abertas, Ambientes antrópicos (plantios, jardins, construções)",
    "dieta": "Frutos, Néctar, Artrópodes",
    "particula": "sai-andorinha",
-   "foto": false
+   "foto": true
  },
  {
    "id": 101,
@@ -1748,7 +1748,7 @@
    "habitats": "Campos e pastagens, Áreas abertas, Ambientes antrópicos (plantios, jardins, construções)",
    "dieta": "Sementes, Artrópodes",
    "particula": "tiziu",
-   "foto": false
+   "foto": true
  },
  {
    "id": 104,
@@ -1850,7 +1850,7 @@
    "habitats": "Capoeiras e matas secundárias, Bordas de mata, Ambientes antrópicos (plantios, jardins, construções)",
    "dieta": "Artrópodes, Frutos",
    "particula": "figuinha-de-rabo-castanho",
-   "foto": false
+   "foto": true
  },
  {
    "id": 110,
@@ -1901,7 +1901,7 @@
    "habitats": "Florestas e matas (úmidas, secas, ciliares etc.), Bordas de mata, Capoeiras e matas secundárias",
    "dieta": "Frutos, Artrópodes",
    "particula": "sanhaco-do-coqueiro",
-   "foto": false
+   "foto": true
  },
  {
    "id": 113,
