@@ -75,6 +75,57 @@ header h2:active {
     /* efeito de clique */
 }
 
+/* Mantém header fixo e transições */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* permite quebrar linha em telas pequenas */
+}
+
+.header-content .logo {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.header-content .logo img {
+    height: 120px; /* tamanho inicial do logo */
+    width: auto;
+    transition: height 0.3s ease;
+}
+
+/* Redução junto com shrink */
+header.shrink .header-content .logo {
+    padding-top: 8px;
+    padding-right: 4px;
+}
+
+header.shrink .header-content .logo img {
+    height: 68px;
+}
+
+/* Mantém alinhamento e estilos dos títulos */
+.header-content .titles {
+    text-align: left;
+}
+
+.header-content .titles h1,
+.header-content .titles h2 {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+header.shrink .titles h1 {
+    font-size: 2rem;
+    margin-top: 0.2rem;
+}
+
+header.shrink .titles h2 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
 .search-box {
     margin: 0.3rem auto;
     max-width: 600px;
@@ -145,7 +196,7 @@ header h2:active {
 
 main {
     flex: 1;
-    margin-top: 220px; /* base para header reduzido */
+    margin-top: 230px; /* base para header reduzido */
     transition: margin-top 0.3s ease;
     -webkit-user-select: none; /* Safari/Chrome */
     -moz-user-select: none; /* Firefox */
@@ -432,6 +483,12 @@ footer p {
         /* evita seleção acidental */
     }
 
+    .header-content .logo img {
+        height: 102px; /* tamanho inicial do logo */
+        width: auto;
+        transition: height 0.3s ease;
+    }
+
     header.shrink .search-box {
         margin: 0.3rem auto;
         padding: 0.5rem;
@@ -446,7 +503,7 @@ footer p {
     }
 
     main {
-        margin-top: 200px;
+        margin-top: 230px;
     }
 
     .headline {
@@ -474,6 +531,31 @@ footer p {
         padding: 0.5rem;
     }
 
+    /* Mantém header fixo e transições */
+    .header-content {
+        gap: 0.1rem;
+    }
+
+    .header-content .logo {
+        padding-top: 10px;
+    }
+
+    .header-content .logo img {
+        height: 96px; /* tamanho inicial do logo */
+        width: auto;
+        transition: height 0.3s ease;
+    }
+
+    /* Redução junto com shrink */
+    header.shrink .header-content .logo {
+        padding-top: 8px;
+        padding-right: 8px;
+    }
+
+    header.shrink .header-content .logo img {
+        height: 68px;
+    }
+
     header h1 {
         font-size: 2.8rem;
     }
@@ -483,7 +565,7 @@ footer p {
     }
 
     main {
-        margin-top: 180px;
+        margin-top: 210px;
     }
 
     .headline {
