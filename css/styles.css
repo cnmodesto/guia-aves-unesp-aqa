@@ -599,7 +599,7 @@ footer p {
 
 .container-info {
     padding: 1rem 2rem;
-    background-color: #f9f9f9;
+    background-color: #f6f5f1;
     margin: 0.4rem auto;
     max-width: 900px;
     text-align: justify;
@@ -622,7 +622,7 @@ footer p {
 
 .container-info h2 {
     font-size: 1.8rem;
-    border-bottom: 2px solid #eee; /* leve separador */
+    border-bottom: 2px solid #ddd; /* leve separador */
     padding-bottom: 0.5rem;
 }
 
