@@ -19,6 +19,11 @@ body {
     background-position: center;
 }
 
+a, button, .info-link, h1, h2, h3 {
+    -webkit-tap-highlight-color: transparent; /* iOS / Android */
+    outline: none; /* remove contorno de foco em alguns navegadores */
+}
+
 header {
     font-family: "Staatliches", sans-serif;
     background: #0E5374;
@@ -41,9 +46,11 @@ header {
 }
 
 .info-link {
-  font-size: 24px;
-  text-decoration: none;
-  color: #333;
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent; /* iOS / Android */
+    outline: none; /* remove contorno de foco em alguns navegadores */
 }
 
 .info-link:hover {
