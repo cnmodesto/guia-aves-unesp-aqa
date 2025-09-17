@@ -112,21 +112,66 @@ function abrirModal(ave) {
       <div class="modal-body">
         <h1>${ave.nomeComumBrasileiro}</h1>
         <h2>${ave.nomeCientifico} (${ave.descricao})</h2>
-        <p><b><span class="modal-body-titles">Ordem:</span></b> ${ave.ordem}</p>
-        <p><b><span class="modal-body-titles">Família:</span></b> ${ave.familia}</p>
-        <p><b><span class="modal-body-titles">Nome Inglês:</span></b> ${ave.nomeComumIngles}</p>
-        <p><b><span class="modal-body-titles">Estado de Conservação IUCN:</span></b> ${ave.estadoConservacaoIucn}</p>
-        <p><b><span class="modal-body-titles">Período de Atividade:</span></b> ${ave.periodoAtividade}</p>
-        <p><b><span class="modal-body-titles">Dimorfismo Sexual:</span></b> ${ave.dimorfismo}</p>
-        <p><b><span class="modal-body-titles">Habitats:</span></b></p>
+        <p>
+          <span class="tooltip">ℹ️
+            <span class="tooltiptext">Grupo taxonômico que reúne famílias de aves com características biológicas semelhantes.</span>
+          </span>         
+          <b><span class="modal-body-titles">Ordem:</span></b> ${ave.ordem}
+        </p>
+        <p>
+          <span class="tooltip">ℹ️
+            <span class="tooltiptext">Conjunto de gêneros de aves que compartilham traços morfológicos e comportamentais.</span>
+          </span>         
+          <b><span class="modal-body-titles">Família:</span></b> ${ave.familia}
+        </p>
+        <p>
+          <span class="tooltip">ℹ️
+            <span class="tooltiptext">Nome comum da espécie em inglês, usado internacionalmente em publicações e observações.</span>
+          </span>       
+          <b><span class="modal-body-titles">Nome em Inglês:</span></b> ${ave.nomeComumIngles}
+        </p>
+        <p>
+          <span class="tooltip">ℹ️
+            <span class="tooltiptext">Classificação da União Internacional para a Conservação da Natureza sobre o risco de extinção da espécie.</span>
+          </span>             
+          <b><span class="modal-body-titles">Estado de Conservação IUCN:</span></b> ${ave.estadoConservacaoIucn}
+        </p>
+        <p>
+          <span class="tooltip">ℹ️
+            <span class="tooltiptext">Momento do dia em que a espécie é mais ativa, como diurno, noturno ou crepuscular.</span>
+          </span>        
+          <b><span class="modal-body-titles">Período de Atividade:</span></b> ${ave.periodoAtividade}
+        </p>
+        <p>
+          <span class="tooltip">ℹ️
+            <span class="tooltiptext">Indica se machos e fêmeas apresentam diferenças visíveis na plumagem, tamanho ou outras características.</span>
+          </span>
+          <b><span class="modal-body-titles">Dimorfismo Sexual Acentuado:</span></b> ${ave.dimorfismo}
+        </p>
+        <p>
+          <span class="tooltip">ℹ️
+            <span class="tooltiptext">Tipos de ambientes naturais onde a espécie vive, se alimenta e se reproduz.</span>
+          </span>        
+          <b><span class="modal-body-titles">Habitats:</span></b>
+        </p>
         <ul>
           ${ave.habitats.map(h => `<li>${h}</li>`).join('')}
         </ul>
-        <p><b><span class="modal-body-titles">Dieta:</span></b></p>
+        <p>
+          <span class="tooltip">ℹ️
+            <span class="tooltiptext">Tipos de alimentos consumidos pela espécie, como sementes, frutos, insetos ou pequenos animais, mostrando seu padrão de alimentação.</span>
+          </span>           
+          <b><span class="modal-body-titles">Dieta:</span></b>
+        </p>
         <ul>
           ${ave.dieta.map(d => `<li>${d}</li>`).join('')}
         </ul>
-        <p><b><span class="modal-body-titles">Endêmica do Brasil:</span></b> ${ave.endemicaBrasil}</p>
+        <p>
+          <span class="tooltip">ℹ️
+            <span class="tooltiptext">Indica se a espécie ocorre naturalmente apenas no território brasileiro.</span>
+          </span>          
+          <b><span class="modal-body-titles">Endêmica do Brasil:</span></b> ${ave.endemicaBrasil}
+        </p>
         <a class="primary-btn modal-body-btn" href="https://www.wikiaves.com.br/${ave.particula}" target="_blank" rel="noopener noreferrer">Perfil da Espécie no Wikiaves</a>
       </div>
     </div>
