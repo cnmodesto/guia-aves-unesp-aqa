@@ -81,16 +81,34 @@ function abrirModal(ave) {
   const modal = document.createElement("div");
   modal.className = "modal";
 
-  let srcImagem = `assets/images/not_available.jpg`;
+  const imagens = ave.fotos?.length > 0
+    ? ave.fotos.map(f => ({ src: `assets/images/photos/${f.src}`, legenda: f.legenda }))
+    : [{ src: `assets/images/not_available.jpg`, legenda: "" }];
 
-  if (ave.foto) {
-    srcImagem = `assets/images/photos/${ave.particula}.jpg`;
+  let currentIndex = 0;
+
+  // function getImagemHTML() {
+  //   return `<img src="${imagens[currentIndex]}" alt="${ave.nomeComumBrasileiro}">`;
+  // }
+
+  function getImagemHTML() {
+    const foto = imagens[currentIndex];
+    return `
+      <div class="image-with-caption">
+        <img src="${foto.src}" alt="${ave.nomeComumBrasileiro}">
+        ${foto.legenda ? `<span class="image-caption">${foto.legenda}</span>` : ""}
+      </div>
+    `;
   }
 
   modal.innerHTML = `
     <div class="modal-card">
       <span class="close">&times;</span>
-      <img src="${srcImagem}" alt="${ave.nomeComumBrasileiro}">
+      <div class="modal-image-container">
+        ${imagens.length > 1 ? '<span class="arrow left">&#10094;</span>' : ''}
+        <div class="modal-image-wrapper">${getImagemHTML()}</div>
+        ${imagens.length > 1 ? '<span class="arrow right">&#10095;</span>' : ''}
+      </div>
       <div class="modal-body">
         <h1>${ave.nomeComumBrasileiro}</h1>
         <h2>${ave.nomeCientifico} (${ave.descricao})</h2>
@@ -116,11 +134,32 @@ function abrirModal(ave) {
 
   document.body.appendChild(modal);
 
+  const imageWrapper = modal.querySelector(".modal-image-wrapper");
+  const leftArrow = modal.querySelector(".arrow.left");
+  const rightArrow = modal.querySelector(".arrow.right");
+
+  function atualizarImagem() {
+    imageWrapper.innerHTML = getImagemHTML();
+  }
+
+  // Adiciona eventos apenas se as setas existirem
+  if (leftArrow && rightArrow) {
+    leftArrow.addEventListener("click", () => {
+      currentIndex = (currentIndex - 1 + imagens.length) % imagens.length;
+      atualizarImagem();
+    });
+
+    rightArrow.addEventListener("click", () => {
+      currentIndex = (currentIndex + 1) % imagens.length;
+      atualizarImagem();
+    });
+  }
+
   // Função de fechar modal
   function fecharModal() {
     modal.remove();
-    document.body.style.overflow = ""; // restaura scroll do body
-    document.removeEventListener("keydown", escFechar); // remove listener do ESC
+    document.body.style.overflow = "";
+    document.removeEventListener("keydown", escFechar);
   }
 
   // Fechar ao clicar no X
@@ -131,10 +170,15 @@ function abrirModal(ave) {
     if (e.target === modal) fecharModal();
   });
 
-  // Fechar com tecla ESC
+  // Teclas do teclado
   function escFechar(e) {
     if (e.key === "Escape") fecharModal();
+    if (leftArrow && rightArrow) {
+      if (e.key === "ArrowLeft") leftArrow.click();
+      if (e.key === "ArrowRight") rightArrow.click();
+    }
   }
+
   document.addEventListener("keydown", escFechar);
 }
 
@@ -187,8 +231,6 @@ headerTitles.forEach(title => {
       title.style.color = ""; // volta para a cor original
     }, 300);
 
-    // Dar foco no input
-    searchInput.focus();
   });
 });
 
@@ -200,7 +242,7 @@ document.addEventListener("contextmenu", (e) => {
 document.addEventListener("scroll", () => {
   const header = document.querySelector("header");
 
-  if (window.scrollY > 50) {
+  if (window.scrollY > 200) {
     header.classList.add("shrink");
   } else {
     header.classList.remove("shrink");

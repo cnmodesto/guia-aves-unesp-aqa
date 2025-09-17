@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": 1,
     "ordem": "Columbiformes",
     "familia": "Columbidae",
@@ -21,7 +20,11 @@
       "Frutos"
     ],
     "particula": "pombo-domestico",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "pombo-domestico.jpg",
+      "legenda": ""
+    }]
   },
   {
     "id": 2,
@@ -47,7 +50,11 @@
       "Frutos"
     ],
     "particula": "pomba-asa-branca",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "pomba-asa-branca.jpg",
+      "legenda": ""
+    }]
   },
   {
     "id": 3,
@@ -73,7 +80,11 @@
       "Frutos"
     ],
     "particula": "avoante",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "avoante.jpg",
+      "legenda": ""
+    }]
   },
   {
     "id": 4,
@@ -99,7 +110,11 @@
       "Frutos"
     ],
     "particula": "rolinha-roxa",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "rolinha-roxa.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
     "id": 5,
@@ -123,7 +138,11 @@
       "Frutos"
     ],
     "particula": "rolinha-fogo-apagou",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "rolinha-fogo-apagou.jpg",
+      "legenda": ""
+    }]
   },
   {
     "id": 6,
@@ -149,7 +168,11 @@
       "Pequenos vertebrados"
     ],
     "particula": "anu-branco",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "anu-branco.jpg",
+      "legenda": ""
+    }]
   },
   {
     "id": 7,
@@ -175,7 +198,11 @@
       "Pequenos vertebrados"
     ],
     "particula": "anu-preto",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "anu-preto.jpg",
+      "legenda": ""
+    }]
   },
   {
     "id": 8,
@@ -199,7 +226,11 @@
       "Pequenos vertebrados"
     ],
     "particula": "alma-de-gato",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "alma-de-gato.jpg",
+      "legenda": ""
+    }]
   },
   {
     "id": 9,
@@ -221,10 +252,43 @@
       "Artrópodes"
     ],
     "particula": "urutau",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "urutau.jpg",
+      "legenda": ""
+    }]
   },
   {
     "id": 10,
+    "ordem": "Caprimulgiformes",
+    "familia": "Caprimulgidae",
+    "nomeCientifico": "Nyctidromus albicollis",
+    "nomeComumBrasileiro": "bacurau",
+    "descricao": "Gmelin, 1789",
+    "nomeComumIngles": "Common Pauraque",
+    "periodoAtividade": "Noturno",
+    "dimorfismo": "Sim",
+    "estadoConservacaoIucn": "Pouco Preocupante",
+    "endemicaBrasil": "Não",
+    "habitats": [
+      "Áreas abertas",
+      "Campos e pastagens",
+      "Cerrado e vegetação de savana",
+      "Capoeiras e matas secundárias",
+      "Bordas de mata"
+    ],
+    "dieta": [
+      "Artrópodes"
+    ],
+    "particula": "bacurau",
+    "foto": true,
+    "fotos": [{
+      "src": "bacurau.jpg",
+      "legenda": ""
+    }]
+  },
+  {
+    "id": 11,
     "ordem": "Caprimulgiformes",
     "familia": "Caprimulgidae",
     "nomeCientifico": "Chordeiles nacunda",
@@ -244,10 +308,14 @@
       "Artrópodes"
     ],
     "particula": "corucao",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "corucao.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 11,
+    "id": 12,
     "ordem": "Apodiformes",
     "familia": "Apodidae",
     "nomeCientifico": "Chaetura meridionalis",
@@ -268,10 +336,14 @@
       "Artrópodes"
     ],
     "particula": "andorinhao-do-temporal",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "andorinhao-do-temporal.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 12,
+    "id": 13,
     "ordem": "Apodiformes",
     "familia": "Apodidae",
     "nomeCientifico": "Tachornis squamata",
@@ -290,10 +362,14 @@
       "Artrópodes"
     ],
     "particula": "andorinhao-do-buriti",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "andorinhao-do-buriti.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 13,
+    "id": 14,
     "ordem": "Apodiformes",
     "familia": "Trochilidae",
     "nomeCientifico": "Heliomaster squamosus",
@@ -314,10 +390,14 @@
       "Artrópodes"
     ],
     "particula": "bico-reto-de-banda-branca",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "bico-reto-de-banda-branca.jpg",
+      "legenda": "Fêmea"
+    }]
   },
   {
-    "id": 14,
+    "id": 15,
     "ordem": "Apodiformes",
     "familia": "Trochilidae",
     "nomeCientifico": "Chlorostilbon lucidus",
@@ -338,10 +418,19 @@
       "Artrópodes"
     ],
     "particula": "besourinho-de-bico-vermelho",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+        "src": "besourinho-de-bico-vermelho.jpg",
+        "legenda": "Macho"
+      },
+      {
+        "src": "besourinho-de-bico-vermelho-femea.jpg",
+        "legenda": "Fêmea"
+      }
+    ]
   },
   {
-    "id": 15,
+    "id": 16,
     "ordem": "Apodiformes",
     "familia": "Trochilidae",
     "nomeCientifico": "Eupetomena macroura",
@@ -362,10 +451,14 @@
       "Artrópodes"
     ],
     "particula": "beija-flor-tesoura",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "beija-flor-tesoura.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 16,
+    "id": 17,
     "ordem": "Apodiformes",
     "familia": "Trochilidae",
     "nomeCientifico": "Chrysuronia versicolor",
@@ -386,10 +479,14 @@
       "Artrópodes"
     ],
     "particula": "beija-flor-de-banda-branca",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "beija-flor-de-banda-branca.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 17,
+    "id": 18,
     "ordem": "Apodiformes",
     "familia": "Trochilidae",
     "nomeCientifico": "Chionomesa fimbriata",
@@ -410,10 +507,14 @@
       "Artrópodes"
     ],
     "particula": "beija-flor-de-garganta-verde",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "beija-flor-de-garganta-verde.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 18,
+    "id": 19,
     "ordem": "Apodiformes",
     "familia": "Trochilidae",
     "nomeCientifico": "Chionomesa lactea",
@@ -434,10 +535,14 @@
       "Artrópodes"
     ],
     "particula": "beija-flor-de-peito-azul",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "beija-flor-de-peito-azul.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 19,
+    "id": 20,
     "ordem": "Charadriiformes",
     "familia": "Charadriidae",
     "nomeCientifico": "Vanellus chilensis",
@@ -458,10 +563,14 @@
       "Vermes"
     ],
     "particula": "quero-quero",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "quero-quero.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 20,
+    "id": 21,
     "ordem": "Pelecaniformes",
     "familia": "Ardeidae",
     "nomeCientifico": "Ardea ibis",
@@ -482,10 +591,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "garca-vaqueira",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "garca-vaqueira.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 21,
+    "id": 22,
     "ordem": "Pelecaniformes",
     "familia": "Ardeidae",
     "nomeCientifico": "Syrigma sibilatrix",
@@ -506,10 +619,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "maria-faceira",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "maria-faceira.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 22,
+    "id": 23,
     "ordem": "Pelecaniformes",
     "familia": "Ardeidae",
     "nomeCientifico": "Egretta thula",
@@ -530,10 +647,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "garca-branca-pequena",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "garca-branca-pequena.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 23,
+    "id": 24,
     "ordem": "Pelecaniformes",
     "familia": "Threskiornithidae",
     "nomeCientifico": "Mesembrinibis cayennensis",
@@ -553,10 +674,14 @@
       "Vermes"
     ],
     "particula": "coro-coro",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "coro-coro.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 24,
+    "id": 25,
     "ordem": "Pelecaniformes",
     "familia": "Threskiornithidae",
     "nomeCientifico": "Phimosus infuscatus",
@@ -576,10 +701,14 @@
       "Vermes"
     ],
     "particula": "tapicuru",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "tapicuru.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 25,
+    "id": 26,
     "ordem": "Pelecaniformes",
     "familia": "Threskiornithidae",
     "nomeCientifico": "Theristicus caudatus",
@@ -599,10 +728,14 @@
       "Vermes"
     ],
     "particula": "curicaca",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "curicaca.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 26,
+    "id": 27,
     "ordem": "Cathartiformes",
     "familia": "Cathartidae",
     "nomeCientifico": "Coragyps atratus",
@@ -623,10 +756,14 @@
       "Carcaças de animais mortos"
     ],
     "particula": "urubu-preto",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "urubu-preto.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 27,
+    "id": 28,
     "ordem": "Accipitriformes",
     "familia": "Accipitridae",
     "nomeCientifico": "Ictinia plumbea",
@@ -647,10 +784,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "sovi",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "sovi.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 28,
+    "id": 29,
     "ordem": "Accipitriformes",
     "familia": "Accipitridae",
     "nomeCientifico": "Geranospiza caerulescens",
@@ -671,10 +812,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "gaviao-pernilongo",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "gaviao-pernilongo.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 29,
+    "id": 30,
     "ordem": "Accipitriformes",
     "familia": "Accipitridae",
     "nomeCientifico": "Rupornis magnirostris",
@@ -695,10 +840,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "gaviao-carijo",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "gaviao-carijo.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 30,
+    "id": 31,
     "ordem": "Accipitriformes",
     "familia": "Accipitridae",
     "nomeCientifico": "Geranoaetus albicaudatus",
@@ -719,10 +868,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "gaviao-de-rabo-branco",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "gaviao-de-rabo-branco.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 31,
+    "id": 32,
     "ordem": "Accipitriformes",
     "familia": "Accipitridae",
     "nomeCientifico": "Buteo brachyurus",
@@ -743,10 +896,44 @@
       "Pequenos vertebrados"
     ],
     "particula": "gaviao-de-cauda-curta",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "gaviao-de-cauda-curta.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 32,
+    "id": 33,
+    "ordem": "Strigiformes",
+    "familia": "Tytonidae",
+    "nomeCientifico": "Tyto furcata",
+    "nomeComumBrasileiro": "suindara",
+    "descricao": "Temminck, 1827",
+    "nomeComumIngles": "American Barn Owl",
+    "periodoAtividade": "Noturno",
+    "dimorfismo": "Não",
+    "estadoConservacaoIucn": "Pouco Preocupante",
+    "endemicaBrasil": "Não",
+    "habitats": [
+      "Áreas abertas",
+      "Campos e pastagens",
+      "Bordas de mata",
+      "Áreas urbanas",
+      "Ambientes antrópicos (plantios, jardins, construções)"
+    ],
+    "dieta": [
+      "Pequenos mamíferos",
+      "Pequenos vertebrados"
+    ],
+    "particula": "suindara",
+    "foto": true,
+    "fotos": [{
+      "src": "suindara.jpg",
+      "legenda": ""
+    }]
+  },
+  {
+    "id": 34,
     "ordem": "Strigiformes",
     "familia": "Strigidae",
     "nomeCientifico": "Megascops choliba",
@@ -767,10 +954,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "corujinha-do-mato",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "corujinha-do-mato.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 33,
+    "id": 35,
     "ordem": "Strigiformes",
     "familia": "Strigidae",
     "nomeCientifico": "Athene cunicularia",
@@ -791,10 +982,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "coruja-buraqueira",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "coruja-buraqueira.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 34,
+    "id": 36,
     "ordem": "Coraciiformes",
     "familia": "Alcedinidae",
     "nomeCientifico": "Megaceryle torquata",
@@ -813,10 +1008,19 @@
       "Artrópodes"
     ],
     "particula": "martim-pescador-grande",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+        "src": "martim-pescador-grande.jpg",
+        "legenda": "Macho"
+      },
+      {
+        "src": "martim-pescador-grande-femea.jpg",
+        "legenda": "Fêmea"
+      }
+    ]
   },
   {
-    "id": 35,
+    "id": 37,
     "ordem": "Piciformes",
     "familia": "Ramphastidae",
     "nomeCientifico": "Ramphastos toco",
@@ -838,10 +1042,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "tucanucu",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "tucanucu.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 36,
+    "id": 38,
     "ordem": "Piciformes",
     "familia": "Picidae",
     "nomeCientifico": "Picumnus albosquamatus",
@@ -861,10 +1069,14 @@
       "Artrópodes"
     ],
     "particula": "picapauzinho-escamoso",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "picapauzinho-escamoso.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 37,
+    "id": 39,
     "ordem": "Piciformes",
     "familia": "Picidae",
     "nomeCientifico": "Melanerpes candidus",
@@ -885,10 +1097,14 @@
       "Frutos"
     ],
     "particula": "pica-pau-branco",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "pica-pau-branco.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 38,
+    "id": 40,
     "ordem": "Piciformes",
     "familia": "Picidae",
     "nomeCientifico": "Dryobates passerinus",
@@ -908,10 +1124,14 @@
       "Artrópodes"
     ],
     "particula": "pica-pau-pequeno",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "pica-pau-pequeno.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 39,
+    "id": 41,
     "ordem": "Piciformes",
     "familia": "Picidae",
     "nomeCientifico": "Colaptes melanochloros",
@@ -932,10 +1152,14 @@
       "Frutos"
     ],
     "particula": "pica-pau-verde-barrado",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "pica-pau-verde-barrado.jpg",
+      "legenda": "Fêmea"
+    }]
   },
   {
-    "id": 40,
+    "id": 42,
     "ordem": "Piciformes",
     "familia": "Picidae",
     "nomeCientifico": "Colaptes campestris",
@@ -943,7 +1167,7 @@
     "descricao": "Vieillot, 1818",
     "nomeComumIngles": "Campo Flicker",
     "periodoAtividade": "Diurno",
-    "dimorfismo": "Não",
+    "dimorfismo": "Sim",
     "estadoConservacaoIucn": "Pouco Preocupante",
     "endemicaBrasil": "Não",
     "habitats": [
@@ -956,10 +1180,14 @@
       "Frutos"
     ],
     "particula": "pica-pau-do-campo",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "pica-pau-do-campo.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 41,
+    "id": 43,
     "ordem": "Cariamiformes",
     "familia": "Cariamidae",
     "nomeCientifico": "Cariama cristata",
@@ -980,10 +1208,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "seriema",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "seriema.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 42,
+    "id": 44,
     "ordem": "Falconiformes",
     "familia": "Falconidae",
     "nomeCientifico": "Caracara plancus",
@@ -1005,10 +1237,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "carcara",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "carcara.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 43,
+    "id": 45,
     "ordem": "Psittaciformes",
     "familia": "Psittacidae",
     "nomeCientifico": "Brotogeris chiriri",
@@ -1029,10 +1265,14 @@
       "Sementes"
     ],
     "particula": "periquito-de-encontro-amarelo",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "periquito-de-encontro-amarelo.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 44,
+    "id": 46,
     "ordem": "Psittaciformes",
     "familia": "Psittacidae",
     "nomeCientifico": "Amazona aestiva",
@@ -1053,10 +1293,14 @@
       "Sementes"
     ],
     "particula": "papagaio-verdadeiro",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "papagaio-verdadeiro.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 45,
+    "id": 47,
     "ordem": "Psittaciformes",
     "familia": "Psittacidae",
     "nomeCientifico": "Amazona amazonica",
@@ -1077,10 +1321,14 @@
       "Sementes"
     ],
     "particula": "curica",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "curica.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 46,
+    "id": 48,
     "ordem": "Psittaciformes",
     "familia": "Psittacidae",
     "nomeCientifico": "Forpus xanthopterygius",
@@ -1101,10 +1349,14 @@
       "Sementes"
     ],
     "particula": "tuim",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "tuim.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 47,
+    "id": 49,
     "ordem": "Psittaciformes",
     "familia": "Psittacidae",
     "nomeCientifico": "Eupsittula aurea",
@@ -1125,10 +1377,14 @@
       "Sementes"
     ],
     "particula": "periquito-rei",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "periquito-rei.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 48,
+    "id": 50,
     "ordem": "Psittaciformes",
     "familia": "Psittacidae",
     "nomeCientifico": "Psittacara leucophthalmus",
@@ -1149,10 +1405,14 @@
       "Sementes"
     ],
     "particula": "periquitao",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "periquitao.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 49,
+    "id": 51,
     "ordem": "Passeriformes",
     "familia": "Thamnophilidae",
     "nomeCientifico": "Herpsilochmus longirostris",
@@ -1171,10 +1431,14 @@
       "Artrópodes"
     ],
     "particula": "chorozinho-de-bico-comprido",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "chorozinho-de-bico-comprido.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 50,
+    "id": 52,
     "ordem": "Passeriformes",
     "familia": "Thamnophilidae",
     "nomeCientifico": "Herpsilochmus atricapillus",
@@ -1193,10 +1457,14 @@
       "Artrópodes"
     ],
     "particula": "chorozinho-de-chapeu-preto",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "chorozinho-de-chapeu-preto.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 51,
+    "id": 53,
     "ordem": "Passeriformes",
     "familia": "Thamnophilidae",
     "nomeCientifico": "Thamnophilus doliatus",
@@ -1215,10 +1483,40 @@
       "Artrópodes"
     ],
     "particula": "choca-barrada",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "choca-barrada.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 52,
+    "id": 54,
+    "ordem": "Passeriformes",
+    "familia": "Thamnophilidae",
+    "nomeCientifico": "Taraba major",
+    "nomeComumBrasileiro": "choró-boi",
+    "descricao": "Vieillot, 1816",
+    "nomeComumIngles": "Great Antshrike",
+    "periodoAtividade": "Diurno",
+    "dimorfismo": "Sim",
+    "estadoConservacaoIucn": "Pouco Preocupante",
+    "endemicaBrasil": "Não",
+    "habitats": [
+      "Florestas e matas (úmidas, secas, ciliares etc.)",
+      "Cerrado e vegetação de savana"
+    ],
+    "dieta": [
+      "Artrópodes"
+    ],
+    "particula": "choro-boi",
+    "foto": true,
+    "fotos": [{
+      "src": "choro-boi.jpg",
+      "legenda": "Macho"
+    }]
+  },
+  {
+    "id": 55,
     "ordem": "Passeriformes",
     "familia": "Dendrocolaptidae",
     "nomeCientifico": "Lepidocolaptes angustirostris",
@@ -1237,10 +1535,14 @@
       "Artrópodes"
     ],
     "particula": "arapacu-de-cerrado",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "arapacu-de-cerrado.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 53,
+    "id": 56,
     "ordem": "Passeriformes",
     "familia": "Furnariidae",
     "nomeCientifico": "Furnarius rufus",
@@ -1260,10 +1562,14 @@
       "Artrópodes"
     ],
     "particula": "joao-de-barro",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "joao-de-barro.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 54,
+    "id": 57,
     "ordem": "Passeriformes",
     "familia": "Furnariidae",
     "nomeCientifico": "Synallaxis frontalis",
@@ -1282,10 +1588,14 @@
       "Artrópodes"
     ],
     "particula": "petrim",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "petrim.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 55,
+    "id": 58,
     "ordem": "Passeriformes",
     "familia": "Rhynchocyclidae",
     "nomeCientifico": "Todirostrum cinereum",
@@ -1304,10 +1614,14 @@
       "Artrópodes"
     ],
     "particula": "ferreirinho-relogio",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "ferreirinho-relogio.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 56,
+    "id": 59,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Hirundinea ferruginea",
@@ -1328,10 +1642,14 @@
       "Artrópodes"
     ],
     "particula": "gibao-de-couro",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "gibao-de-couro.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 57,
+    "id": 60,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Camptostoma obsoletum",
@@ -1351,10 +1669,14 @@
       "Frutos"
     ],
     "particula": "risadinha",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "risadinha.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 58,
+    "id": 61,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Elaenia flavogaster",
@@ -1374,10 +1696,14 @@
       "Frutos"
     ],
     "particula": "guaracava-de-barriga-amarela",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "guaracava-de-barriga-amarela.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 59,
+    "id": 62,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Suiriri suiriri",
@@ -1398,10 +1724,14 @@
       "Frutos"
     ],
     "particula": "suiriri-cinzento",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "suiriri-cinzento.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 60,
+    "id": 63,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Serpophaga subcristata",
@@ -1420,10 +1750,14 @@
       "Artrópodes"
     ],
     "particula": "alegrinho",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "alegrinho.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 61,
+    "id": 64,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Myiarchus swainsoni",
@@ -1443,10 +1777,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "irre",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "irre.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 62,
+    "id": 65,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Myiarchus ferox",
@@ -1466,10 +1804,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "maria-cavaleira",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "maria-cavaleira.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 63,
+    "id": 66,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Myiarchus tyrannulus",
@@ -1489,10 +1831,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "maria-cavaleira-de-rabo-enferrujado",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "maria-cavaleira-de-rabo-enferrujado.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 64,
+    "id": 67,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Pitangus sulphuratus",
@@ -1515,10 +1861,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "bem-te-vi",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "bem-te-vi.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 65,
+    "id": 68,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Machetornis rixosa",
@@ -1539,10 +1889,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "suiriri-cavaleiro",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "suiriri-cavaleiro.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 66,
+    "id": 69,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Myiodynastes maculatus",
@@ -1562,10 +1916,14 @@
       "Frutos"
     ],
     "particula": "bem-te-vi-rajado",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "bem-te-vi-rajado.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 67,
+    "id": 70,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Megarynchus pitangua",
@@ -1585,10 +1943,14 @@
       "Frutos"
     ],
     "particula": "neinei",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "neinei.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 68,
+    "id": 71,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Myiozetetes similis",
@@ -1608,10 +1970,14 @@
       "Frutos"
     ],
     "particula": "bentevizinho-de-penacho-vermelho",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "bentevizinho-de-penacho-vermelho.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 69,
+    "id": 72,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Tyrannus albogularis",
@@ -1631,10 +1997,14 @@
       "Artrópodes"
     ],
     "particula": "suiriri-de-garganta-branca",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "suiriri-de-garganta-branca.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 70,
+    "id": 73,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Tyrannus melancholicus",
@@ -1654,10 +2024,14 @@
       "Artrópodes"
     ],
     "particula": "suiriri",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "suiriri.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 71,
+    "id": 74,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Tyrannus savana",
@@ -1677,10 +2051,14 @@
       "Artrópodes"
     ],
     "particula": "tesourinha",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "tesourinha.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 72,
+    "id": 75,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Empidonomus aurantioatrocristatus",
@@ -1700,10 +2078,14 @@
       "Artrópodes"
     ],
     "particula": "peitica-de-chapeu-preto",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "peitica-de-chapeu-preto.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 73,
+    "id": 76,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Empidonomus varius",
@@ -1723,10 +2105,14 @@
       "Artrópodes"
     ],
     "particula": "peitica",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "peitica.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 74,
+    "id": 77,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Fluvicola nengeta",
@@ -1747,10 +2133,14 @@
       "Artrópodes"
     ],
     "particula": "lavadeira-mascarada",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "lavadeira-mascarada.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 75,
+    "id": 78,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Pyrocephalus rubinus",
@@ -1770,10 +2160,14 @@
       "Artrópodes"
     ],
     "particula": "principe",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "principe.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 76,
+    "id": 79,
     "ordem": "Passeriformes",
     "familia": "Tyrannidae",
     "nomeCientifico": "Nengetus cinereus",
@@ -1793,10 +2187,14 @@
       "Artrópodes"
     ],
     "particula": "primavera",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "primavera.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 77,
+    "id": 80,
     "ordem": "Passeriformes",
     "familia": "Vireonidae",
     "nomeCientifico": "Cyclarhis gujanensis",
@@ -1817,10 +2215,14 @@
       "Frutos"
     ],
     "particula": "pitiguari",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "pitiguari.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 78,
+    "id": 81,
     "ordem": "Passeriformes",
     "familia": "Corvidae",
     "nomeCientifico": "Cyanocorax cristatellus",
@@ -1842,10 +2244,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "gralha-do-campo",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "gralha-do-campo.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 79,
+    "id": 82,
     "ordem": "Passeriformes",
     "familia": "Corvidae",
     "nomeCientifico": "Cyanocorax chrysops",
@@ -1867,10 +2273,14 @@
       "Pequenos vertebrados"
     ],
     "particula": "gralha-picaca",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "gralha-picaca.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 80,
+    "id": 83,
     "ordem": "Passeriformes",
     "familia": "Hirundinidae",
     "nomeCientifico": "Pygochelidon cyanoleuca",
@@ -1890,10 +2300,14 @@
       "Artrópodes"
     ],
     "particula": "andorinha-pequena-de-casa",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "andorinha-pequena-de-casa.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 81,
+    "id": 84,
     "ordem": "Passeriformes",
     "familia": "Hirundinidae",
     "nomeCientifico": "Stelgidopteryx ruficollis",
@@ -1913,10 +2327,14 @@
       "Artrópodes"
     ],
     "particula": "andorinha-serradora",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "andorinha-serradora.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 82,
+    "id": 85,
     "ordem": "Passeriformes",
     "familia": "Hirundinidae",
     "nomeCientifico": "Progne tapera",
@@ -1937,10 +2355,14 @@
       "Artrópodes"
     ],
     "particula": "andorinha-do-campo",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "andorinha-do-campo.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 83,
+    "id": 86,
     "ordem": "Passeriformes",
     "familia": "Hirundinidae",
     "nomeCientifico": "Progne chalybea",
@@ -1948,7 +2370,7 @@
     "descricao": "Gmelin, 1789",
     "nomeComumIngles": "Gray-breasted Martin",
     "periodoAtividade": "Diurno",
-    "dimorfismo": "Sim",
+    "dimorfismo": "Não",
     "estadoConservacaoIucn": "Pouco Preocupante",
     "endemicaBrasil": "Não",
     "habitats": [
@@ -1961,10 +2383,14 @@
       "Artrópodes"
     ],
     "particula": "andorinha-grande",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "andorinha-grande.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 84,
+    "id": 87,
     "ordem": "Passeriformes",
     "familia": "Hirundinidae",
     "nomeCientifico": "Tachycineta leucorrhoa",
@@ -1984,10 +2410,14 @@
       "Artrópodes"
     ],
     "particula": "andorinha-de-sobre-branco",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "andorinha-de-sobre-branco.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 85,
+    "id": 88,
     "ordem": "Passeriformes",
     "familia": "Troglodytidae",
     "nomeCientifico": "Troglodytes musculus",
@@ -2008,10 +2438,14 @@
       "Artrópodes"
     ],
     "particula": "corruira",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "corruira.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 86,
+    "id": 89,
     "ordem": "Passeriformes",
     "familia": "Polioptilidae",
     "nomeCientifico": "Polioptila dumicola",
@@ -2031,10 +2465,14 @@
       "Artrópodes"
     ],
     "particula": "balanca-rabo-de-mascara",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "balanca-rabo-de-mascara.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 87,
+    "id": 90,
     "ordem": "Passeriformes",
     "familia": "Turdidae",
     "nomeCientifico": "Turdus leucomelas",
@@ -2056,10 +2494,14 @@
       "Artrópodes"
     ],
     "particula": "sabia-barranco",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "sabia-barranco.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 88,
+    "id": 91,
     "ordem": "Passeriformes",
     "familia": "Turdidae",
     "nomeCientifico": "Turdus amaurochalinus",
@@ -2081,10 +2523,14 @@
       "Artrópodes"
     ],
     "particula": "sabia-poca",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "sabia-poca.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 89,
+    "id": 92,
     "ordem": "Passeriformes",
     "familia": "Turdidae",
     "nomeCientifico": "Turdus subalaris",
@@ -2105,10 +2551,14 @@
       "Artrópodes"
     ],
     "particula": "sabia-ferreiro",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "sabia-ferreiro.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 90,
+    "id": 93,
     "ordem": "Passeriformes",
     "familia": "Mimidae",
     "nomeCientifico": "Mimus saturninus",
@@ -2130,10 +2580,14 @@
       "Frutos"
     ],
     "particula": "sabia-do-campo",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "sabia-do-campo.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 91,
+    "id": 94,
     "ordem": "Passeriformes",
     "familia": "Estrildidae",
     "nomeCientifico": "Estrilda astrild",
@@ -2152,10 +2606,14 @@
       "Sementes"
     ],
     "particula": "bico-de-lacre",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "bico-de-lacre.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 92,
+    "id": 95,
     "ordem": "Passeriformes",
     "familia": "Passeridae",
     "nomeCientifico": "Passer domesticus",
@@ -2176,10 +2634,14 @@
       "Artrópodes"
     ],
     "particula": "pardal",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "pardal.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 93,
+    "id": 96,
     "ordem": "Passeriformes",
     "familia": "Fringillidae",
     "nomeCientifico": "Euphonia chlorotica",
@@ -2200,10 +2662,14 @@
       "Sementes"
     ],
     "particula": "fim-fim",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "fim-fim.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 94,
+    "id": 97,
     "ordem": "Passeriformes",
     "familia": "Passerellidae",
     "nomeCientifico": "Ammodramus humeralis",
@@ -2224,10 +2690,14 @@
       "Artrópodes"
     ],
     "particula": "tico-tico-do-campo",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "tico-tico-do-campo.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 95,
+    "id": 98,
     "ordem": "Passeriformes",
     "familia": "Passerellidae",
     "nomeCientifico": "Zonotrichia capensis",
@@ -2250,10 +2720,14 @@
       "Artrópodes"
     ],
     "particula": "tico-tico",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "tico-tico.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 96,
+    "id": 99,
     "ordem": "Passeriformes",
     "familia": "Icteridae",
     "nomeCientifico": "Icterus pyrrhopterus",
@@ -2276,10 +2750,14 @@
       "Néctar"
     ],
     "particula": "encontro",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "encontro.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 97,
+    "id": 100,
     "ordem": "Passeriformes",
     "familia": "Icteridae",
     "nomeCientifico": "Molothrus bonariensis",
@@ -2301,10 +2779,14 @@
       "Sementes"
     ],
     "particula": "chupim",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "chupim.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 98,
+    "id": 101,
     "ordem": "Passeriformes",
     "familia": "Icteridae",
     "nomeCientifico": "Pseudoleistes guirahuro",
@@ -2325,10 +2807,14 @@
       "Sementes"
     ],
     "particula": "chupim-do-brejo",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "chupim-do-brejo.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 99,
+    "id": 102,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Nemosia pileata",
@@ -2350,10 +2836,14 @@
       "Frutos"
     ],
     "particula": "saira-de-chapeu-preto",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "saira-de-chapeu-preto.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 100,
+    "id": 103,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Tersina viridis",
@@ -2376,10 +2866,14 @@
       "Artrópodes"
     ],
     "particula": "sai-andorinha",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "sai-andorinha.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 101,
+    "id": 104,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Dacnis cayana",
@@ -2401,10 +2895,14 @@
       "Artrópodes"
     ],
     "particula": "sai-azul",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "sai-azul.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 102,
+    "id": 105,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Coereba flaveola",
@@ -2427,10 +2925,14 @@
       "Artrópodes"
     ],
     "particula": "cambacica",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "cambacica.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 103,
+    "id": 106,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Volatinia jacarina",
@@ -2451,10 +2953,14 @@
       "Artrópodes"
     ],
     "particula": "tiziu",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "tiziu.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 104,
+    "id": 107,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Coryphospingus cucullatus",
@@ -2476,10 +2982,14 @@
       "Artrópodes"
     ],
     "particula": "tico-tico-rei",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "tico-tico-rei.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 105,
+    "id": 108,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Ramphocelus carbo",
@@ -2501,10 +3011,14 @@
       "Artrópodes"
     ],
     "particula": "pipira-vermelha",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "pipira-vermelha.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 106,
+    "id": 109,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Sporophila lineola",
@@ -2523,10 +3037,14 @@
       "Sementes"
     ],
     "particula": "bigodinho",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "bigodinho.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 107,
+    "id": 110,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Sporophila caerulescens",
@@ -2546,10 +3064,14 @@
       "Sementes"
     ],
     "particula": "coleirinho",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "coleirinho.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 108,
+    "id": 111,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Thlypopsis sordida",
@@ -2570,10 +3092,14 @@
       "Frutos"
     ],
     "particula": "sai-canario",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "sai-canario.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 109,
+    "id": 112,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Conirostrum speciosum",
@@ -2594,10 +3120,14 @@
       "Frutos"
     ],
     "particula": "figuinha-de-rabo-castanho",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "figuinha-de-rabo-castanho.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 110,
+    "id": 113,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Sicalis flaveola",
@@ -2618,10 +3148,14 @@
       "Sementes"
     ],
     "particula": "canario-da-terra",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "canario-da-terra.jpg",
+      "legenda": "Macho"
+    }]
   },
   {
-    "id": 111,
+    "id": 114,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Thraupis sayaca",
@@ -2643,10 +3177,14 @@
       "Artrópodes"
     ],
     "particula": "sanhaco-cinzento",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "sanhaco-cinzento.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 112,
+    "id": 115,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Thraupis palmarum",
@@ -2667,10 +3205,14 @@
       "Artrópodes"
     ],
     "particula": "sanhaco-do-coqueiro",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "sanhaco-do-coqueiro.jpg",
+      "legenda": ""
+    }]
   },
   {
-    "id": 113,
+    "id": 116,
     "ordem": "Passeriformes",
     "familia": "Thraupidae",
     "nomeCientifico": "Stilpnia cayana",
@@ -2692,6 +3234,10 @@
       "Néctar"
     ],
     "particula": "saira-amarela",
-    "foto": true
+    "foto": true,
+    "fotos": [{
+      "src": "saira-amarela.jpg",
+      "legenda": "Macho"
+    }]
   }
 ]
