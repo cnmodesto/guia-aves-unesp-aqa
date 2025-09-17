@@ -86,12 +86,6 @@ header h2 {
     transition: transform 0.2s ease;
 }
 
-header h1:active,
-header h2:active {
-    transform: scale(0.95);
-    /* efeito de clique */
-}
-
 /* Mantém header fixo e transições */
 .header-content {
     display: flex;
@@ -133,6 +127,25 @@ header.shrink .header-content .logo img {
     transition: transform 0.2s ease;
 }
 
+.header-content .titles h2 {
+    position: relative;
+}
+
+.header-content .titles h2 .info-link {
+    position: absolute;
+    right: -40px;    /* distância do texto; ajuste conforme necessário */
+    top: 50%;        /* centraliza verticalmente na linha do h2 */
+    transform: translateY(-50%);
+    font-size: 1.8rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.header-content .titles h2 .info-link:hover {
+    color: #0073e6;
+}
+
 header.shrink .titles h1 {
     font-size: 2rem;
     margin-top: 0.2rem;
@@ -141,6 +154,10 @@ header.shrink .titles h1 {
 header.shrink .titles h2 {
     font-size: 1rem;
     margin-bottom: 0.2rem;
+}
+
+header.shrink .titles h2 .info-link {
+    font-size: 1rem;
 }
 
 .search-box {
@@ -677,12 +694,18 @@ footer p {
         font-size: 1.5rem;
     }
 
+    .header-content .titles h2 .info-link {
+        right: 0px;    /* distância do texto; ajuste conforme necessário */
+        top: 50%;        /* centraliza verticalmente na linha do h2 */
+        font-size: 1.5rem;
+    }
+
     main {
         margin-top: 220px;
     }
 
     .main-info {
-        margin-top: 150px;
+        margin-top: 135px;
     }
 
     .headline {
@@ -699,7 +722,7 @@ footer p {
 
     .container-info {
         padding: 1rem;       /* menos padding interno */
-        margin: 1rem;        /* menos margem externa */
+        margin: 1rem 1rem 0 1rem;        /* menos margem externa */
         font-size: 0.95rem;  /* texto um pouco menor */
     }
 
@@ -770,12 +793,18 @@ footer p {
         font-size: 1.3rem;
     }
 
+    .header-content .titles h2 .info-link {
+        right: 0px;    /* distância do texto; ajuste conforme necessário */
+        top: 50%;        /* centraliza verticalmente na linha do h2 */
+        font-size: 1.3rem;
+    }
+
     main {
         margin-top: 210px;
     }
 
     .main-info {
-        margin-top: 140px;
+        margin-top: 125px;
     }
 
     .headline {
@@ -824,16 +853,16 @@ footer p {
 
     .container-info {
         padding: 1rem;       /* menos padding interno */
-        margin: 1rem;        /* menos margem externa */
+        margin: 1rem 1rem 0 1rem;        /* menos margem externa */
         font-size: 0.95rem;  /* texto um pouco menor */
     }
 
     .container-info h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .container-info h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .container-info ul {
