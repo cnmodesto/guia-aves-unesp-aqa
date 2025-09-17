@@ -100,8 +100,14 @@ function abrirModal(ave) {
         <p><b><span class="modal-body-titles">Estado de Conservação IUCN:</span></b> ${ave.estadoConservacaoIucn}</p>
         <p><b><span class="modal-body-titles">Período de Atividade:</span></b> ${ave.periodoAtividade}</p>
         <p><b><span class="modal-body-titles">Dimorfismo Sexual:</span></b> ${ave.dimorfismo}</p>
-        <p><b><span class="modal-body-titles">Habitats:</span></b> ${ave.habitats}</p>
-        <p><b><span class="modal-body-titles">Dieta:</span></b> ${ave.dieta}</p>
+        <p><b><span class="modal-body-titles">Habitats:</span></b></p>
+        <ul>
+          ${ave.habitats.map(h => `<li>${h}</li>`).join('')}
+        </ul>
+        <p><b><span class="modal-body-titles">Dieta:</span></b></p>
+        <ul>
+          ${ave.dieta.map(d => `<li>${d}</li>`).join('')}
+        </ul>
         <p><b><span class="modal-body-titles">Endêmica do Brasil:</span></b> ${ave.endemicaBrasil}</p>
         <a class="primary-btn modal-body-btn" href="https://www.wikiaves.com.br/${ave.particula}" target=blank>Perfil da Espécie no Wikiaves</a>
       </div>

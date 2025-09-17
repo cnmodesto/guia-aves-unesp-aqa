@@ -373,6 +373,15 @@ footer p {
     font-size: 13px;
 }
 
+.modal-body ul {
+    margin: 0;
+    margin-top: 0.2rem;
+    font-size: 13px;
+    list-style-type: square;
+    padding-inline-start: 20px;
+
+}
+
 .modal-body-titles {
     color: #2c3e50;
     text-transform: uppercase;
@@ -491,14 +500,15 @@ footer p {
 
     .modal-card {
         margin: 0.5rem;
+        max-height: 95%;
     }
 
     .modal-card h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .modal-card h2 {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     .modal-card img {
@@ -509,6 +519,14 @@ footer p {
         padding: 0;
         margin: 0;
         margin-top: 0.1rem;
-        font-size: 13px;
+        font-size: 10px;
     }
+
+    .modal-body ul {
+        font-size: 10px;
+    }
+
+    .modal-body-btn {
+        margin-top: 1rem;
+    }    
 }
