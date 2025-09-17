@@ -19,7 +19,7 @@ body {
     background-position: center;
 }
 
-a, button, .info-link, h1, h2, h3 {
+a, button, .info-link, .tooltip, h1, h2, h3 {
     -webkit-tap-highlight-color: transparent; /* iOS / Android */
     outline: none; /* remove contorno de foco em alguns navegadores */
 }
