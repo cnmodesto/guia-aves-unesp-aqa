@@ -33,6 +33,23 @@ header {
     transition: all 0.3s ease;
 }
 
+.header-actions {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 100;
+}
+
+.info-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: #333;
+}
+
+.info-link:hover {
+  color: #0073e6; /* cor de destaque ao passar o mouse */
+}
+
 /* Header reduzido */
 header.shrink h1 {
     font-size: 2rem; /* menor */
@@ -204,6 +221,16 @@ main {
     user-select: none;/* Padrão */
 }
 
+.main-info {
+    flex: 1;
+    margin-top: 160px; /* base para header reduzido */
+    transition: margin-top 0.3s ease;
+    -webkit-user-select: none; /* Safari/Chrome */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none;/* Padrão */
+}
+
 header.shrink ~ main {
     margin-top: 140px; /* ajusta espaço quando header encolhe */
 }
@@ -220,7 +247,7 @@ header.shrink ~ main {
 .card {
     background: #f7f7f7;
     border-radius: 8px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -247,6 +274,7 @@ header.shrink ~ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #f9f9f9;
 }
 
 /* Tipografia */
@@ -552,6 +580,74 @@ footer p {
     }
 }
 
+.container-info {
+    padding: 1rem 2rem;
+    background-color: #f9f9f9;
+    margin: 0.4rem auto;
+    max-width: 900px;
+    text-align: justify;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* títulos dentro da área de conteúdo */
+.container-info h2,
+.container-info h3 {
+    color: #2c3e50;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.container-info h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #eee; /* leve separador */
+    padding-bottom: 0.5rem;
+}
+
+.container-info h3 {
+    font-size: 1.4rem;
+    color: #34495e;
+}
+
+.container-info p {
+    margin-bottom: 1rem;
+}
+
+/* listas */
+.container-info ul {
+    margin: 1rem 0 1.5rem 1.5rem;
+    padding: 0;
+    list-style-type: disc;
+}
+
+.container-info li {
+    margin-bottom: 0.25rem;
+}
+
+.container-info a {
+    color: #1d70b8;             /* azul moderno */
+    text-decoration: none;       /* remove sublinhado */
+    transition: color 0.3s, border-bottom 0.3s; /* transição suave */
+    border-bottom: 2px solid transparent; /* efeito sutil ao hover */
+}
+
+/* hover e foco */
+.container-info a:hover,
+.container-info a:focus {
+    color: #0d3a66;              /* azul mais escuro no hover */
+    border-bottom: 2px solid #1d70b8; /* sublinhado aparece ao passar o mouse */
+}
+
+/* link visitado */
+.container-info a:visited {
+    color: #1d70b8;             /* mesma cor que não visitado */
+}
+
 /* -------------------------
    Media Queries
 ------------------------- */
@@ -582,7 +678,11 @@ footer p {
     }
 
     main {
-        margin-top: 230px;
+        margin-top: 220px;
+    }
+
+    .main-info {
+        margin-top: 150px;
     }
 
     .headline {
@@ -596,6 +696,24 @@ footer p {
     footer {
         font-size: 12px;
     }
+
+    .container-info {
+        padding: 1rem;       /* menos padding interno */
+        margin: 1rem;        /* menos margem externa */
+        font-size: 0.95rem;  /* texto um pouco menor */
+    }
+
+    .container-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .container-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .container-info ul {
+        margin-left: 1rem;   /* listas menos indentadas */
+    }
 }
 
 /* Celulares */
@@ -603,6 +721,15 @@ footer p {
     body {
         touch-action: manipulation;
         /* evita seleção acidental */
+    }
+
+    .header-actions {
+        top: 80px;
+        z-index: 100;
+    }
+
+    header.shrink .header-actions {
+        top: 30px;
     }
 
     header.shrink .search-box {
@@ -647,6 +774,10 @@ footer p {
         margin-top: 210px;
     }
 
+    .main-info {
+        margin-top: 140px;
+    }
+
     .headline {
         font-size: 14px;
     }
@@ -689,5 +820,23 @@ footer p {
 
     .modal-body-btn {
         margin-top: 1rem;
-    }    
+    }
+
+    .container-info {
+        padding: 1rem;       /* menos padding interno */
+        margin: 1rem;        /* menos margem externa */
+        font-size: 0.95rem;  /* texto um pouco menor */
+    }
+
+    .container-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .container-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .container-info ul {
+        margin-left: 1rem;   /* listas menos indentadas */
+    }
 }

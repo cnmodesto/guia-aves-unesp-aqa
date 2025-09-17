@@ -127,7 +127,7 @@ function abrirModal(ave) {
           ${ave.dieta.map(d => `<li>${d}</li>`).join('')}
         </ul>
         <p><b><span class="modal-body-titles">Endêmica do Brasil:</span></b> ${ave.endemicaBrasil}</p>
-        <a class="primary-btn modal-body-btn" href="https://www.wikiaves.com.br/${ave.particula}" target=blank>Perfil da Espécie no Wikiaves</a>
+        <a class="primary-btn modal-body-btn" href="https://www.wikiaves.com.br/${ave.particula}" target="_blank" rel="noopener noreferrer">Perfil da Espécie no Wikiaves</a>
       </div>
     </div>
   `;
